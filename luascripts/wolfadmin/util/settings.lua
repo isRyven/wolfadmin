@@ -27,7 +27,6 @@ local data = {
     ["g_fileGreetings"] = "greetings.toml",
     ["g_fileRules"] = "rules.toml",
     ["g_playerHistory"] = 1,
-    ["g_botRecords"] = 1,
     ["g_announceRevives"] = 1,
     ["g_greetingArea"] = 3,
     ["g_botGreetings"] = 1,
@@ -105,9 +104,6 @@ local cfgStructure = {
         ["file"] = "g_fileGreetings",
         ["area"] = "g_greetingsArea",
         ["bots"] = "g_botGreetings"
-    },
-    ["records"] = {
-        ["bots"] = "g_botRecords"
     }
 }
 
