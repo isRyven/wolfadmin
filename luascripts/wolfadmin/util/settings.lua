@@ -26,11 +26,7 @@ local data = {
     ["g_fileBanners"] = "banners.toml",
     ["g_fileGreetings"] = "greetings.toml",
     ["g_fileRules"] = "rules.toml",
-    ["g_fileSprees"] = "sprees.toml",
     ["g_playerHistory"] = 1,
-    ["g_spreeMessages"] = 7,
-    ["g_spreeSounds"] = 3,
-    ["g_spreeRecords"] = 1,
     ["g_botRecords"] = 1,
     ["g_announceRevives"] = 1,
     ["g_greetingArea"] = 3,
@@ -112,12 +108,6 @@ local cfgStructure = {
     },
     ["records"] = {
         ["bots"] = "g_botRecords"
-    },
-    ["sprees"] = {
-        ["file"] = "g_fileSprees",
-        ["messages"] = "g_spreeMessages",
-        ["sounds"] = "g_spreeSounds",
-        ["records"] = "g_spreeRecords"
     }
 }
 
